@@ -37,7 +37,7 @@ logger.setLevel(logging.INFO)
 
 ###图灵数据
 def get_computer(data):
-    key = '1c7838fe570846dba9e5c0ef859bdab6'
+    key = 'dfasdfasdfsadfasfsafasfasdfsaf' # 更换成自己申请的
     api = 'http://www.tuling123.com/openapi/api?key='+key+'&info='+data
     response =urllib.urlopen(api).read()
     dic_json = json.loads(response)
